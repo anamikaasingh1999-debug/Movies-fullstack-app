@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./CreateMoviePage.css";
+import uploadIcon from '../../assets/Images/file_download_black_24dp 1.svg'
 
 export default function CreateMovie() {
   const [title, setTitle] = useState("");
@@ -114,7 +115,7 @@ const handleSubmit = async (e) => {
                 <img src={imagePreview} alt="Preview" className="image-preview" />
               ) : (
                 <>
-                  <div className="download-icon">⬆</div>
+                  <div className="download-icon"><img src={uploadIcon} alt="uploadIcon" height={'20px'} width={'20px'}/></div>
                   <p className="drop-text">Drop an image here</p>
                 </>
               )}

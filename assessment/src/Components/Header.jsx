@@ -14,7 +14,7 @@ export default function Header({ onAdd }) {
     <header className="header">
       <div className="header-left">
         <h1>My movies</h1>
-        <button onClick={onAdd}>
+        <button onClick={navigate.bind(null, "/createmovie")} className="add-movie-button">
           <PlusIcon />
         </button>
       </div>
