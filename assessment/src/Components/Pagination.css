@@ -1,0 +1,50 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px 24px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 80px;
+}
+.pagination button{
+    font-style: Montserrat;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.page-btn.active {
+  background-color: #2ecc71; /* green */
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,58 @@
+header.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 120px 0px 120px;
+    background-color: #093545;
+}
+
+.header-left{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 310px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left button{
+    width: 54px;
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+}
+.header-left button svg{
+    width: 24px;
+    height: 24px;
+    fill: transparent;
+    cursor: pointer;
+    stroke: white;
+}
+
+.header-left h1{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-style: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.logout-button{
+    width: 100%;
+    max-width: 90px;
+    background-color: transparent;
+    border: none;
+    font-style: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}

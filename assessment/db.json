@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": "2010",
+      "image": "https://via.placeholder.com/300x450?text=Inception"
+    },
+    {
+      "id": 2,
+      "title": "Interstellar",
+      "year": "2014",
+      "image": "https://via.placeholder.com/300x450?text=Interstellar"
+    },
+    {
+      "id": 3,
+      "title": "Avatar",
+      "year": "2009",
+      "image": "https://via.placeholder.com/300x450?text=Avatar"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "year": "2008",
+      "image": "https://via.placeholder.com/300x450?text=Dark+Knight"
+    },
+    {
+      "id": 5,
+      "title": "Titanic",
+      "year": "1997",
+      "image": "https://via.placeholder.com/300x450?text=Titanic"
+    },
+    {
+      "id": 6,
+      "title": "Joker",
+      "year": "2019",
+      "image": "https://via.placeholder.com/300x450?text=Joker"
+    },
+    {
+      "id": 7,
+      "title": "Avengers: Endgame",
+      "year": "2019",
+      "image": "https://via.placeholder.com/300x450?text=Endgame"
+    },
+    {
+      "id": 8,
+      "title": "The Matrix",
+      "year": "1999",
+      "image": "https://via.placeholder.com/300x450?text=Matrix"
+    }
+  ]
+}
